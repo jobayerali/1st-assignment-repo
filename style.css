@@ -36,10 +36,12 @@ nav{
     list-style: none;
     margin-right: 50px;
 }
-.nav ul li a{
-    text-decoration:none;
+.nav ul li a {
+    
     font-size: 20px;
     font-weight: bold;
+    text-decoration:none;
+   
     
 }
 .banner-content{
@@ -87,4 +89,82 @@ nav{
 .banner-profile{
     border-radius: 25px;
     margin-right: 70px;
+}
+.button :hover {
+    background-color: yellow;
+  font-size: 18px;
+}
+
+/* feedback section */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.stars {
+  color: #f6b100;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #888;
 }
