@@ -168,3 +168,30 @@ body {
   font-size: 0.85rem;
   color: #888;
 }
+
+/* get in tuch section */
+.form-section{
+    display: flex;
+    gap: 100px;
+    padding: 130px 150px;
+}
+
+.section-title{
+    font-size: 75px;
+    font-weight: bold;
+    color: #181818;
+}
+.form-colunm{
+    width: 50%;
+}
+
+.form-section input[type="text"], form input ,form textarea [type="email"]{
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+    display:block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 14px;
+    border: none;
+}
