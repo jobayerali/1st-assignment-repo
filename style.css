@@ -7,7 +7,12 @@
     "wdth" 100;
 }
 
-
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
 
 .header-bg{
     background-image: url(Assets/Hero-bg.png);
@@ -194,4 +199,45 @@ body {
     padding: 10px 20px;
     margin-bottom: 14px;
     border: none;
+}
+
+/* footer section */
+
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9f9fc;
+  color: #8888aa;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4a40fd;
+  margin-bottom: 20px;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #8888aa;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #4a40fd;
 }
